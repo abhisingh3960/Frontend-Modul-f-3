@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Test F-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Crypto Market Data</h1>
+    <form>
+        <div class="main_container">
+            <input id="search_box" type="text" placeholder="Search By Name or Symbol">
+            <button id="searchBtn">Search</button>
+            <button type="button" id="mtk_cap">Sort By Mkt Cap</button>
+            <button type="button" id="sort_percenatge">Sort by Percentage Change</button>
+        </div>
+    </form>
+    
+    <!-- Table to display the cryptocurrency data -->
+    <table id="cryptoTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Symbol</th>
+                <th>Current Price</th>
+                <th>Total Volume</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
